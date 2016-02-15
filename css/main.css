@@ -1,4 +1,15 @@
 .thumbnail {
 	height: 100px;
 	width:80px;
+	vertical-align: middle;
+}
+
+.main-content .text {
+	background-image: url("../images/HandLogo.jpg") !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white;
+	opacity: 0.75;
+	text-align: center;
+	height: 700px;
 }
