@@ -3,7 +3,9 @@
 }
 
 .past-projects {
-	background-color: #C4F156;
+	background-color: #FFECC4;
+	box-shadow: -2px 2px #A0C8D0;
+	border-radius: 50px;
 }
 
 .thumbnail {
@@ -16,6 +18,16 @@
 	border-color: #75A500;
 }
 
+.img-responsive {
+	
+	margin: 5px 0;
+	border-style: solid;
+	border-radius: 25px;
+	
+	border-color: #4A8A96;
+	border-width: 2px;
+}
+
 .main-content img {
 	align-items: center; 
 	
@@ -23,23 +35,29 @@
 
 
 .main-content .text {
-	background-image: url("../images/artistic_header2.jpg") !important;
-	background-size: cover;
-	background-repeat: repeat-y;
 	
 	text-align: center;
-	height: 700px;
-	padding-top: 100px;
+	padding-top: 50px;
+	background-image: url("../images/artistic_header2.jpg") !important;
+	background-size: cover;
+	background-repeat: repeat;
 }
 
 .mission, .creator, .announcements {
 	background-color: white;
 	opacity: 0.85;
 	position: relative;
+	padding: 10px 0;
+	border-radius: 50px;
+	margin-bottom: 15px;
 }
 
-.page-header, .text h1 {
+.page-header, .text h1, .project-title {
 	font-family: 'Lobster', cursive;
+}
+
+.page-header small {
+	color: #1C6D7C;
 }
 
 .text p {
@@ -48,7 +66,8 @@
 }
 
 .jumbotron {
-	background-color: #39A0A0;
+	background-color: #A0C8D0;
+	border-bottom: 25px solid #C93C2A;
 }
 
 .upper-left {
@@ -56,4 +75,15 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 300px;
+}
+
+.page-header {
+	padding-top: 20px;
+	text-shadow: 3px 2px #FFF;
+	
+}
+
+.project-title {
+	text-align: center;
+	font-size: 40px;
 }
