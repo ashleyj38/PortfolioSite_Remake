@@ -12,4 +12,10 @@
 	opacity: 0.75;
 	text-align: center;
 	height: 700px;
+	padding-top: 100px;
+}
+
+.mission, .creator, .announcements {
+	background-color: white;
+	opacity: 0.85;
 }
