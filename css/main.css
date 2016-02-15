@@ -1,15 +1,32 @@
+.container {
+	width: 100%;
+}
+
+.past-projects {
+	background-color: #C4F156;
+}
+
 .thumbnail {
 	height: 100px;
 	width:80px;
 	vertical-align: middle;
+	/*box-shadow: -10px 10px;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #75A500;
 }
 
+.main-content img {
+	align-items: center; 
+	
+}
+
+
 .main-content .text {
-	background-image: url("../images/HandLogo.jpg") !important;
+	background-image: url("../images/artistic_header2.jpg") !important;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: white;
-	opacity: 0.75;
+	background-repeat: repeat-y;
+	
 	text-align: center;
 	height: 700px;
 	padding-top: 100px;
@@ -18,6 +35,7 @@
 .mission, .creator, .announcements {
 	background-color: white;
 	opacity: 0.85;
+	position: relative;
 }
 
 .page-header, .text h1 {
@@ -26,4 +44,16 @@
 
 .text p {
 	font-family: 'Noto Serif', cursive;
+	font-size: 18px;
+}
+
+.jumbotron {
+	background-color: #39A0A0;
+}
+
+.upper-left {
+	background-image: url("../images/HandLogo.png") !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
 }
